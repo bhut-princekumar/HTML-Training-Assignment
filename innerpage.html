@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/innerpage.css">
+    <title>Innerpage</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div id="idsidebarcontrol" class="sidebarcontrol" onclick="myFunction()"><img src="images/menu-bar.svg" alt=""></div>
+            <div class="headerlogo"><img src="images/header-logo.svg" alt=""></div>
+            <div class="searchicon"><img src="images/search-icon.svg" alt=""></div>
+            <div class="searchbox"><input class="navsearch" type="text" placeholder="search"></div>
+            <div class="notification"><img src="images/notification-icon.svg" alt=""></div>
+            <div class="profilephoto"><img src="images/profile.png" alt=""></div>
+            <div class="profilename">John Deo</div>
+            <div class="downarrow"><img src="images/downward-arrow.svg" alt=""></div>
+        </div>
+        <div id="idsidebartop" class="sidebartop">
+            <div style="color: red; background-color: #FFF3F4;"><img src="images/dashboard-active.svg" alt="" >Dashboard</div>
+            <div><img src="images/graph-default.svg" alt="">Analisis</div>
+            <div><img src="images/inbox-default.svg" alt="">Inbox</div>
+            <div><img src="images/clock-default.svg" alt="">History</div>
+            <div><img src="images/user-default.svg" alt="">User</div>
+            <div><img src="images/maintenance-default.svg" alt="">Maintenance</div>
+            <div><img src="images/setting-default.svg" alt="">Setting</div>
+        </div>
+        <div id="idlowbody" class="lowbody">
+            <div id="idsidebar" class="sidebar">
+                <div style="color: red; background-color: #FFF3F4;"><img src="images/dashboard-active.svg" alt="" >Dashboard</div>
+                <div><img src="images/graph-default.svg" alt="">Analisis</div>
+                <div><img src="images/inbox-default.svg" alt="">Inbox</div>
+                <div><img src="images/clock-default.svg" alt="">History</div>
+                <div><img src="images/user-default.svg" alt="">User</div>
+                <div><img src="images/maintenance-default.svg" alt="">Maintenance</div>
+                <div><img src="images/setting-default.svg" alt="">Setting</div>
+            </div>
+            <div class="rightbar">
+                <div class="dashboardtitle">
+                    <div><h1>Dashboard</h1></div>
+                </div>
+                <div class="con">
+                    <div class="rowtitle">
+                        <div><h2>one column</h2></div>
+                    </div>
+                    <div class="one-col">
+                        <div><input type="text" placeholder="Name"></div>
+                        
+                        <div>
+                            <select name="" id="">
+                                <option value="Dropdowm">Dropdowm</option>
+                            </select>
+                        </div>
+                        
+                        <div><textarea name="" id="" cols="30" rows="10" placeholder="Multiple line"></textarea></div>
+                    </div>
+                    <div class="rowtitle">
+                        <div><h2>two column</h2></div>
+                    </div>
+                    <div class="two-col">
+                        <div class="two-col-row">
+                            <div class="floating-label-group">
+                                <input type="text" id="username" class="form-control" autocomplete="off" required/>
+                                <lable class="floating-label">Name</lable>
+                            </div>
+                            <div class="floating-label-group">
+                                <input type="text" id="username" class="form-control" autocomplete="off" required/>
+                                <lable class="floating-label">Username</lable>
+                            </div>
+                        </div>
+                        <div class="two-col-row">
+                            <div class="floating-label-group">
+                                <input type="password" id="username" class="form-control" autocomplete="off" required/>
+                                <lable class="floating-label">Password</lable>
+                            </div>
+                            <div class="floating-label-group">
+                                <div>
+                                    <select name="" id="">
+                                        <option value="Dropdowm">Dropdowm</option>
+                                    </select>
+                                </div>
+                                <!-- <lable class="floating-label">Dropdowm</lable> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rowtitle">
+                        <div><h2>three column</h2></div>
+                    </div>
+                    <div class="three-col">
+                        <div class="floating-label-group">
+                            <input type="text" id="username" class="form-control" autocomplete="off" autofocus required/>
+                            <lable class="floating-label">Focus</lable>
+                        </div>
+                        <div class="floating-label-group">
+                            <input type="password" id="username" class="form-control" autocomplete="off" required/>
+                            <lable class="floating-label">Password</lable>
+                        </div>
+                        <div class="floating-label-group">
+                            <input type="text" id="username" class="form-control" autocomplete="off" disabled required style="border-style: dashed;"/>
+                            <lable class="floating-label">Disabled</lable>
+                        </div>
+                    </div>
+                    <div class="rowtitle">
+                        <div><h2>Four column</h2></div>
+                    </div>
+                    <div class="four-col">
+                        <div class="floating-label-group">
+                            <input type="text" id="username" class="form-control" autocomplete="off" required/>
+                            <lable class="floating-label">Designation</lable>
+                        </div>
+                        <div class="floating-label-group">
+                            <input type="text" id="username" class="form-control" autocomplete="off" required />
+                            <lable class="floating-label">Name</lable>
+                        </div>
+                        <div class="floating-label-group">
+                            <input type="text" id="username" class="form-control" autocomplete="off" required />
+                            <lable class="floating-label">Username</lable>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="">Select</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="rowtitle">
+                        <div><h2>Other Design Element</h2></div>
+                    </div>
+                    <div class="other">
+                        <div class="rowtitle">
+                            <div><h3>File Upload</h3></div>
+                        </div>
+                        <div class="fileuploadmain">
+                            <div>
+                                <button class="uploadbutton">
+                                    <div class="fileupload">
+                                        <div><img src="images/cloud-upload-icon.svg" alt=""></div>
+                                        <div>upload</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>No Item Selected</div>
+                        </div>
+                        <div class="rowtitle">
+                            <div><h3>Radio Button</h3></div>
+                        </div>
+                        <div class="radiobutton">
+                            <div>
+                                <input type="radio" name="option" id="op1">
+                                <label for="op1">Option 1</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="option" id="op2" checked>
+                                <label for="op2">Option 2</label>
+                            </div>
+                        </div>
+                        <div class="rowtitle">
+                            <div><h3>Checkbox</h3></div>
+                        </div>
+                        <div class="checkbox">
+                            <div>
+                                <input type="checkbox" name="optioncb1" id="opcb1">
+                                <label for="opcb1">Option 1</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="optioncb2" id="opcb2" checked>
+                                <label for="opcb2">Option 2</label>
+                            </div>
+                        </div>
+                        <div class="rowtitle">
+                            <div><h3>Snackbar</h3></div>
+                        </div>
+                        <div class="snackbar">
+                            <div class="two-col">
+                                <div class="two-col-row">
+                                    <div class="snackbarele error">
+                                        <div><img src="images/error-icon.svg" alt=""></div>
+                                        <div>This is an error Massage</div>
+                                    </div>
+                                    <div class="snackbarele information">
+                                        <div><img src="images/info-icon.svg" alt=""></div>
+                                        <div>This is an information Massage</div>
+                                    </div>
+                                </div>
+                                <div class="two-col-row">
+                                    <div class="snackbarele warning">
+                                        <div><img src="images/warning-icon.svg" alt=""></div>
+                                        <div>This is an warning Massage</div>
+                                    </div>
+                                    <div class="snackbarele success">
+                                        <div><img src="images/success-icon.svg" alt=""></div>
+                                        <div>This is an success Massage</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowtitle">
+                            <div><h3>Call to action</h3></div>
+                        </div>
+                        <div class="calltoaction">
+                            <div><button>Primary</button></div>
+                            <div><button>Secondary</button></div>
+                        </div>
+                        <div class="rowtitle">
+                            <div><h3>Tabs</h3></div>
+                        </div>
+                        <div class="tabs">
+                            <div class="tabnav">
+                                <div id="tab1" onclick="Tab('tab1')">Tab 1</div>
+                                <div id="tab2" onclick="Tab('tab2')">Tab 2</div>
+                                <div id="tab3" onclick="Tab('tab3')">Tab 3</div>
+                            </div>
+                            <div id="divdata">
+                                tab 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, necessitatibus, eos ab praesentium voluptate tempore, itaque sint impedit illum reiciendis vel incidunt officiis nulla fugiat. Quaerat, deleniti culpa? Incidunt praesentium excepturi doloremque natus voluptates ullam labore exercitationem ut modi aut, accusamus inventore? Perspiciatis odio, culpa nihil eaque dolor amet aut est consequuntur voluptas odit, pariatur libero animi placeat ad laboriosam eligendi? Animi harum, eveniet ipsum illum autem explicabo doloremque libero excepturi nobis tempore, itaque odit! Tempora, quos ducimus? Aperiam maiores totam repudiandae perspiciatis molestiae fugiat excepturi at doloribus aspernatur in id rem, accusamus laboriosam nisi. Cum maiores nemo nihil, quas aliquam sed sit mollitia commodi consequuntur fugiat voluptate molestiae soluta labore similique consectetur esse dicta. Velit itaque enim id libero eos cum explicabo excepturi earum quae. Nostrum, nulla eaque. Nulla reprehenderit doloremque earum commodi asperiores numquam atque quidem aspernatur, cumque illo perferendis vel illum recusandae dolor libero nobis, ex laborum corrupti dolorum eligendi totam! Tenetur, blanditiis atque iusto, repellendus ab optio non corrupti veritatis facere, veniam voluptatibus dicta error consequatur neque quae suscipit numquam eaque qui amet recusandae aut magni. Architecto facere qui natus sapiente aperiam? Voluptates aut excepturi impedit, nam laboriosam harum numquam modi quibusdam ut provident reprehenderit ab dolores? Harum quasi totam, nesciunt voluptatum laudantium magni vel, tempore quisquam, facilis possimus ad. Nemo molestiae vel doloremque veniam? At fugit, vitae dolore magni reprehenderit, velit asperiores vero hic quia corporis doloribus qui alias. Repellendus mollitia doloribus officiis repellat ipsam laudantium libero necessitatibus eligendi quo accusantium distinctio reprehenderit quam aliquid, voluptatem ratione velit obcaecati enim temporibus, alias ipsa reiciendis quod aperiam? Quidem, officiis? Assumenda amet eligendi magnam libero quibusdam, itaque quas ut voluptates quasi voluptas ipsam perferendis neque suscipit facilis accusamus quia ea enim. Tenetur illo fugiat odio rem accusantium distinctio assumenda? Cumque, fugiat similique. Accusamus tenetur officia, sapiente fugit impedit harum ex, consequuntur autem explicabo quas itaque ipsam beatae hic molestias. Tempore iusto consequatur sequi! Eum itaque ipsam illo excepturi perspiciatis nam, expedita atque ut dicta beatae vel rerum sunt ad fuga magnam unde recusandae ab eius aspernatur accusamus architecto explicabo culpa et pariatur! Atque cupiditate debitis modi dolores doloribus voluptatum consequuntur eos architecto harum culpa eveniet, quo, repellendus voluptate illo, perferendis provident quibusdam placeat. Eum doloremque consequuntur hic quasi, corporis rerum perferendis, facilis voluptate commodi repudiandae impedit, voluptatum quam non atque dolorum quis veniam dicta quaerat officiis qui minus iure praesentium. Tempora nemo, reprehenderit neque maiores cum illum
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script>
+        function Tab(s){
+            document.getElementById('tab1').style.borderBottom="none";
+            document.getElementById('tab2').style.borderBottom="none";
+            document.getElementById('tab3').style.borderBottom="none";
+            var borderpro = "4px solid red";
+            var tabtop = "3px";
+            if(s=="tab1"){
+                var tab = document.getElementById(s);
+                tab.style.borderBottom = borderpro;
+                tab.style.top = tabtop;
+                document.getElementById("divdata").innerHTML="tab 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, necessitatibus, eos ab praesentium voluptate tempore, itaque sint impedit illum reiciendis vel incidunt officiis nulla fugiat. Quaerat, deleniti culpa? Incidunt praesentium excepturi doloremque natus voluptates ullam labore exercitationem ut modi aut, accusamus inventore? Perspiciatis odio, culpa nihil eaque dolor amet aut est consequuntur voluptas odit, pariatur libero animi placeat ad laboriosam eligendi? Animi harum, eveniet ipsum illum autem explicabo doloremque libero excepturi nobis tempore, itaque odit! Tempora, quos ducimus? Aperiam maiores totam repudiandae perspiciatis molestiae fugiat excepturi at doloribus aspernatur in id rem, accusamus laboriosam nisi. Cum maiores nemo nihil, quas aliquam sed sit mollitia commodi consequuntur fugiat voluptate molestiae soluta labore similique consectetur esse dicta. Velit itaque enim id libero eos cum explicabo excepturi earum quae. Nostrum, nulla eaque. Nulla reprehenderit doloremque earum commodi asperiores numquam atque quidem aspernatur, cumque illo perferendis vel illum recusandae dolor libero nobis, ex laborum corrupti dolorum eligendi totam! Tenetur, blanditiis atque iusto, repellendus ab optio non corrupti veritatis facere, veniam voluptatibus dicta error consequatur neque quae suscipit numquam eaque qui amet recusandae aut magni. Architecto facere qui natus sapiente aperiam? Voluptates aut excepturi impedit, nam laboriosam harum numquam modi quibusdam ut provident reprehenderit ab dolores? Harum quasi totam, nesciunt voluptatum laudantium magni vel, tempore quisquam, facilis possimus ad. Nemo molestiae vel doloremque veniam? At fugit, vitae dolore magni reprehenderit, velit asperiores vero hic quia corporis doloribus qui alias. Repellendus mollitia doloribus officiis repellat ipsam laudantium libero necessitatibus eligendi quo accusantium distinctio reprehenderit quam aliquid, voluptatem ratione velit obcaecati enim temporibus, alias ipsa reiciendis quod aperiam? Quidem, officiis? Assumenda amet eligendi magnam libero quibusdam, itaque quas ut voluptates quasi voluptas ipsam perferendis neque suscipit facilis accusamus quia ea enim. Tenetur illo fugiat odio rem accusantium distinctio assumenda? Cumque, fugiat similique. Accusamus tenetur officia, sapiente fugit impedit harum ex, consequuntur autem explicabo quas itaque ipsam beatae hic molestias. Tempore iusto consequatur sequi! Eum itaque ipsam illo excepturi perspiciatis nam, expedita atque ut dicta beatae vel rerum sunt ad fuga magnam unde recusandae ab eius aspernatur accusamus architecto explicabo culpa et pariatur! Atque cupiditate debitis modi dolores doloribus voluptatum consequuntur eos architecto harum culpa eveniet, quo, repellendus voluptate illo, perferendis provident quibusdam placeat. Eum doloremque consequuntur hic quasi, corporis rerum perferendis, facilis voluptate commodi repudiandae impedit, voluptatum quam non atque dolorum quis veniam dicta quaerat officiis qui minus iure praesentium. Tempora nemo, reprehenderit neque maiores cum illum";
+            }
+            if(s=="tab2"){
+                var tab = document.getElementById(s);
+                tab.style.borderBottom = borderpro;
+                tab.style.top = tabtop;
+                document.getElementById("divdata").innerHTML="tab 2 tab 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, necessitatibus, eos ab praesentium voluptate tempore, itaque sint impedit illum reiciendis vel incidunt officiis nulla fugiat. Quaerat, deleniti culpa? Incidunt praesentium excepturi doloremque natus voluptates ullam labore exercitationem ut modi aut, accusamus inventore? Perspiciatis odio, culpa nihil eaque dolor amet aut est consequuntur voluptas odit, pariatur libero animi placeat ad laboriosam eligendi? Animi harum, eveniet ipsum illum autem explicabo doloremque libero excepturi nobis tempore, itaque odit! Tempora, quos ducimus? Aperiam maiores totam repudiandae perspiciatis molestiae fugiat excepturi at doloribus aspernatur in id rem, accusamus laboriosam nisi. Cum maiores nemo nihil, quas aliquam sed sit mollitia commodi consequuntur fugiat voluptate molestiae soluta labore similique consectetur esse dicta. Velit itaque enim id libero eos cum explicabo excepturi earum quae. Nostrum, nulla eaque. Nulla reprehenderit doloremque earum commodi asperiores numquam atque quidem aspernatur, cumque illo perferendis vel illum recusandae dolor libero nobis, ex laborum corrupti dolorum eligendi totam! Tenetur, blanditiis atque iusto, repellendus ab optio non corrupti veritatis facere, veniam voluptatibus dicta error consequatur neque quae suscipit numquam eaque qui amet recusandae aut magni. Architecto facere qui natus sapiente aperiam? Voluptates aut excepturi impedit, nam laboriosam harum numquam modi quibusdam ut provident reprehenderit ab dolores? Harum quasi totam, nesciunt voluptatum laudantium magni vel, tempore quisquam, facilis possimus ad. Nemo molestiae vel doloremque veniam? At fugit, vitae dolore magni reprehenderit, velit asperiores vero hic quia corporis doloribus qui alias. Repellendus mollitia doloribus officiis repellat ipsam laudantium libero necessitatibus eligendi quo accusantium distinctio reprehenderit quam aliquid, voluptatem ratione velit obcaecati enim temporibus, alias ipsa reiciendis quod aperiam? Quidem, officiis? Assumenda amet eligendi magnam libero quibusdam, itaque quas ut voluptates quasi voluptas ipsam perferendis neque suscipit facilis accusamus quia ea enim. Tenetur illo fugiat odio rem accusantium distinctio assumenda? Cumque, fugiat similique. Accusamus tenetur officia, sapiente fugit impedit harum ex, consequuntur autem explicabo quas itaque ipsam beatae hic molestias. Tempore iusto consequatur sequi! Eum itaque ipsam illo excepturi perspiciatis nam, expedita atque ut dicta beatae vel rerum sunt ad fuga magnam unde recusandae ab eius aspernatur accusamus architecto explicabo culpa et pariatur! Atque cupiditate debitis modi dolores doloribus voluptatum consequuntur eos architecto harum culpa eveniet, quo, repellendus voluptate illo, perferendis provident quibusdam placeat. Eum doloremque consequuntur hic quasi, corporis rerum perferendis, facilis voluptate commodi repudiandae impedit, voluptatum quam non atque dolorum quis veniam dicta quaerat officiis qui minus iure praesentium. Tempora nemo, reprehenderit neque maiores cum illum";
+            }
+            if(s=="tab3"){
+                var tab = document.getElementById(s);
+                tab.style.borderBottom = borderpro;
+                tab.style.top = tabtop;
+                document.getElementById("divdata").innerHTML="tab 3 tab 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, necessitatibus, eos ab praesentium voluptate tempore, itaque sint impedit illum reiciendis vel incidunt officiis nulla fugiat. Quaerat, deleniti culpa? Incidunt praesentium excepturi doloremque natus voluptates ullam labore exercitationem ut modi aut, accusamus inventore? Perspiciatis odio, culpa nihil eaque dolor amet aut est consequuntur voluptas odit, pariatur libero animi placeat ad laboriosam eligendi? Animi harum, eveniet ipsum illum autem explicabo doloremque libero excepturi nobis tempore, itaque odit! Tempora, quos ducimus? Aperiam maiores totam repudiandae perspiciatis molestiae fugiat excepturi at doloribus aspernatur in id rem, accusamus laboriosam nisi. Cum maiores nemo nihil, quas aliquam sed sit mollitia commodi consequuntur fugiat voluptate molestiae soluta labore similique consectetur esse dicta. Velit itaque enim id libero eos cum explicabo excepturi earum quae. Nostrum, nulla eaque. Nulla reprehenderit doloremque earum commodi asperiores numquam atque quidem aspernatur, cumque illo perferendis vel illum recusandae dolor libero nobis, ex laborum corrupti dolorum eligendi totam! Tenetur, blanditiis atque iusto, repellendus ab optio non corrupti veritatis facere, veniam voluptatibus dicta error consequatur neque quae suscipit numquam eaque qui amet recusandae aut magni. Architecto facere qui natus sapiente aperiam? Voluptates aut excepturi impedit, nam laboriosam harum numquam modi quibusdam ut provident reprehenderit ab dolores? Harum quasi totam, nesciunt voluptatum laudantium magni vel, tempore quisquam, facilis possimus ad. Nemo molestiae vel doloremque veniam? At fugit, vitae dolore magni reprehenderit, velit asperiores vero hic quia corporis doloribus qui alias. Repellendus mollitia doloribus officiis repellat ipsam laudantium libero necessitatibus eligendi quo accusantium distinctio reprehenderit quam aliquid, voluptatem ratione velit obcaecati enim temporibus, alias ipsa reiciendis quod aperiam? Quidem, officiis? Assumenda amet eligendi magnam libero quibusdam, itaque quas ut voluptates quasi voluptas ipsam perferendis neque suscipit facilis accusamus quia ea enim. Tenetur illo fugiat odio rem accusantium distinctio assumenda? Cumque, fugiat similique. Accusamus tenetur officia, sapiente fugit impedit harum ex, consequuntur autem explicabo quas itaque ipsam beatae hic molestias. Tempore iusto consequatur sequi! Eum itaque ipsam illo excepturi perspiciatis nam, expedita atque ut dicta beatae vel rerum sunt ad fuga magnam unde recusandae ab eius aspernatur accusamus architecto explicabo culpa et pariatur! Atque cupiditate debitis modi dolores doloribus voluptatum consequuntur eos architecto harum culpa eveniet, quo, repellendus voluptate illo, perferendis provident quibusdam placeat. Eum doloremque consequuntur hic quasi, corporis rerum perferendis, facilis voluptate commodi repudiandae impedit, voluptatum quam non atque dolorum quis veniam dicta quaerat officiis qui minus iure praesentium. Tempora nemo, reprehenderit neque maiores cum illum";
+            }
+        }
+        function myFunction() {
+            var idsidebar = document.getElementById("idsidebar");
+            var idlowbody = document.getElementById("idlowbody");
+
+            if (idsidebar.style.display !== "none") {
+                idsidebar.style.display = "none";
+                idlowbody.style.gridTemplateColumns = "auto";
+            }
+            else
+            {
+                idsidebar.style.display = "flex";
+                idlowbody.style.gridTemplateColumns = "242px auto";
+            }
+
+            var idsidebartop = document.getElementById("idsidebartop");
+            var idlowbodytop = document.getElementById("idlowbodytop");
+            
+            if (idsidebartop.style.display !== "none") {
+                idsidebartop.style.display = "none";
+            }
+            else
+            {
+                idsidebartop.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+</html>

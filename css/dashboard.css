@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    min-height: 100%;
+    max-width: 100%;
+    /* background-color: yellow; */
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 40px 160px 25px auto 30px 55px max-content 20px;
+    /* grid-template-columns: max-content max-content max-content auto max-content max-content max-content max-content; */
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat;
+    opacity: 1;
+    padding: 2px;
+}
+
+.sidebartop{
+    width: 100%;
+    min-height: max-content;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sidebartop div{
+    width: 100%;
+    height: 43px;
+    background: white 0% 0% no-repeat;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.sidebartop div img{
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: white 0% 0% no-repeat border-box;
+    opacity: 1;
+    margin: 5px;
+}
+
+.notification, .profilephoto , .profilename, .downarrow{
+    justify-self: end;
+}
+
+.navsearch{
+    width: 80%;
+}
+
+.searchbox{
+    min-width: 150px;
+}
+
+.lowbody{
+    display: grid;
+    grid-template-columns: 242px auto;
+}
+
+.sidebar{
+    width: 242px;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar div{
+    width: 183px;
+    height: 43px;
+    background: white 0% 0% no-repeat;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: m;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.sidebar div img{
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: white 0% 0% no-repeat border-box;
+    opacity: 1;
+    margin: 5px;
+}
+
+.rightbar{
+    /* min-height: 100vh; */
+    width: 100%;
+    min-width: 100%;
+    max-width: 1px;
+    overflow-x: auto;
+    padding: 2%;
+    background-color:#fff;
+}
+
+.con{
+    height: 100%;
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 344px;
+}
+.dashboardtitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.confirst{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first{
+    height: 116px;
+    width: 220px;
+    min-width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.num{
+    font-size: 30px;;
+}
+
+.consecond{
+    width: 100%;
+    display: flex;
+    grid-template-columns: auto 360px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.datagraph{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.tabnav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+.tabnav div{
+    padding: 10px;
+}
+#tab1{
+    border-bottom: 4px solid red;
+}
+
+.piechart{
+    width: 319px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.datagraph img{
+    width: 100%;
+    min-width: 319px;
+}
+.datagraphttitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.piecharttitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.piechart img{
+    width: 100%;
+}
+
+.piecon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.pieconsub{
+    width: 25%;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.conthird{
+    width: 100%;
+    min-width: 100%;
+    max-width: 1px;
+    overflow-x: auto;
+    background-color: white;
+}
+.tabcontrol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab{
+    white-space: nowrap;
+    min-width: 100%;
+    text-align: left;
+    font: normal normal normal 16px/10px Roboto;
+}
+.cir{
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 4px;
+    background-color: red;
+}
+td{
+    min-width: max-content;
+}
+
+th{
+    min-width: max-content;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.paid{
+    color: green;
+}
+.panding{
+    color: lightgray;
+}
+.failed{
+    color:red;
+}
+
+@media screen and (max-width:560px) {
+    .profilename{
+        display: none;
+    }
+    .profilephoto{
+        display: none;
+    }
+    .navbar{
+        grid-template-columns:40px 160px 25px auto 30px 20px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .headerlogo{
+        display: none;
+    }
+    .navbar{
+        grid-template-columns:40px 25px auto 30px 20px;
+    }
+}
+
+@media screen and (max-width:605px) {
+    .sidebar{
+        display: none !important;
+    }
+    #idlowbody{
+        grid-template-columns: auto !important;
+    }
+}
+@media screen and (min-width:605px) {
+    .sidebartop{
+        display: none !important;
+    }
+    .sidebar{
+        display: flex;
+    }
+    #idlowbody{
+        grid-template-columns: 242px auto;
+    }
+}

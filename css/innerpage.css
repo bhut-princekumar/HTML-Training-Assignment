@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    min-height: 100%;
+    max-width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebartop{
+    width: 100%;
+    min-height: max-content;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sidebartop div{
+    width: 100%;
+    height: 43px;
+    background: white 0% 0% no-repeat;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.sidebartop div img{
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: white 0% 0% no-repeat border-box;
+    opacity: 1;
+    margin: 5px;
+}
+
+
+input, select, textarea{
+    padding: 10px;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: gray;
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 40px 160px 25px auto 30px 55px max-content 20px;
+    /* grid-template-columns: max-content max-content max-content auto max-content max-content max-content max-content; */
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat;
+    opacity: 1;
+    padding: 2px;
+}
+
+.notification, .profilephoto , .profilename, .downarrow{
+    justify-self: end;
+}
+
+.navsearch{
+    width: 80%;
+}
+
+.searchbox{
+    min-width: 150px;
+}
+
+.lowbody{
+    display: grid;
+    grid-template-columns: 242px auto;
+}
+
+.sidebar{
+    width: 242px;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar div{
+    width: 183px;
+    height: 43px;
+    background: white 0% 0% no-repeat;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: m;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.sidebar div img{
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: white 0% 0% no-repeat border-box;
+    opacity: 1;
+    margin: 5px;
+}
+
+.rightbar{
+    /* min-height: 100vh; */
+    width: 100%;
+    min-width: 100%;
+    max-width: 1px;
+    overflow-x: auto;
+    padding: 2%;
+    background-color:#fff;
+}
+
+.con{
+    height: 100%;
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: ; */
+    width: 100%;
+    min-width: 344px;
+}
+
+.dashboardtitle, .rowtitle{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.floating-label-group {
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.floating-label {
+    font-size: 15px;
+    color: #cccccc;
+    background-color: white;
+    position: absolute;
+    max-width: max-content;
+    pointer-events: none;
+    left: 22px;
+    transition: all 0.1s ease;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+    top: -10px;
+    bottom: 0px;
+    left: 18px;
+    font-size: 14px;
+    opacity: 1;
+    max-height: 14px;
+    color: #404040;
+}
+
+.one-col{
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 8px;
+}
+.one-col div{
+    width: 99%;
+}
+
+.one-col div *{
+    width: 100%;
+}
+
+.two-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.two-col-row{
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.two-col .two-col-row div{
+    width: 49%;
+}
+
+.two-col .two-col-row div *{
+    width: 100%;
+}
+
+.three-col{
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+.three-col div{
+    width: 32.333%;
+}
+
+.three-col div *{
+    width: 100%;
+}
+
+.four-col {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+.four-col div{
+    width: 24%;
+}
+
+.four-col div *{
+    width: 100%;
+}
+
+.other{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fileuploadmain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.fileupload{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 5px;
+    color: #C8242F;
+}
+.uploadbutton{
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #c8242F;
+    margin-right: 15px;
+}
+.radiobutton{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    
+}
+.radiobutton div, .checkbox div{
+    padding: 10px;
+    padding-left: 0px;
+    min-width: 110px;
+}
+.checkbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+.snackbarele{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+.snackbarele div{
+    max-width: max-content;
+}
+.snackbarele img{
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+.error{
+    border: 1px solid red;
+    color: red;
+    border-radius: 4px;
+}
+.information{
+    border: 1px solid skyblue;
+    color: skyblue;
+    border-radius: 4px;
+}
+.warning{
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 4px;
+}
+.success{
+    border: 1px solid green;
+    color: green;
+    border-radius: 4px;
+}
+.calltoaction {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calltoaction div{
+    min-width: 110px;
+}
+.calltoaction button{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    min-width: 100px;
+    padding: 10px;
+}
+.tabs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.tabnav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 2px solid gray;
+}
+.tabnav div{
+    padding: 10px;
+    position: relative;
+}
+#tab1{
+    border-bottom: 4px solid red;
+    top:2px;
+}
+@media screen and (max-width:560px) {
+    .profilename{
+        display: none;
+    }
+    .profilephoto{
+        display: none;
+    }
+    .navbar{
+        grid-template-columns:40px 160px 25px auto 30px 20px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .headerlogo{
+        display: none;
+    }
+    .navbar{
+        grid-template-columns:40px 25px auto 30px 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .four-col div{
+        width: 100%;
+    }
+}
+@media screen and (max-width:850px){
+    .three-col div{
+        width: 100%;
+    }
+}
+@media screen and (max-width:775px){
+    .two-col .two-col-row div{
+        width: 100%;
+    } 
+}
+@media screen and (max-width:605px) {
+    .sidebar{
+        display: none !important;
+    }
+    #idlowbody{
+        grid-template-columns: auto !important;
+    }
+}
+@media screen and (min-width:605px) {
+    .sidebartop{
+        display: none !important;
+    }
+    .sidebar{
+        display: flex;
+    }
+    #idlowbody{
+        grid-template-columns: 242px auto;
+    }
+}
